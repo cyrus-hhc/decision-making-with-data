@@ -32,7 +32,7 @@ c.lm <- lm(c.group$post.test ~ c.group$pre.test)
 abline(t.lm)
 abline(c.lm, lty =2)
 
-####Question 1(c)####
+####Question 1(c)#####
 
 library(arm)
 lm.4 <- lm(post.test ~treatment +pre.test + treatment:pre.test, data = sesame)
